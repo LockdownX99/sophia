@@ -1,0 +1,49 @@
+body{
+  /*background-color:gray; */
+  background-image:url("../image/test.jpg");
+}
+
+#contener{
+  display:grid;
+  place-items:center;  
+  gap:50px;
+  /*background-color:green;*/
+  padding: 10%;
+  margin-top:30%;
+  width:auto;
+}
+
+#count{
+  text-align: center;
+  background-color:red;
+  width: 100%;
+  color:white;
+  
+}
+
+#counter{
+  background-color:hwb(0 48% 16%);
+  padding:10px;
+  width:40%;
+  border-radius:30px;
+  
+}
+
+#save{
+  background-color:hwb(0 64% 5%);
+  padding:10px;
+  width:40%;
+  border-radius:30px;
+}
+
+#result{
+  
+  text-align:left;
+  /*text-shadow: 1px 1px 2px black;*/
+  background-color:white;
+  color:black;
+  padding:5%;
+  opacity:0.75;
+  
+}
+
