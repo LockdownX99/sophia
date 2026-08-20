@@ -10,15 +10,18 @@ let p = 0;
 //}
 //increment()
 
-counter.addEventListener("click",()=>count.innerText=p=p+1);
+counter.addEventListener("click",()=>count.textContent=p=p+1);
 
 let result = document.getElementById("result");
 
 function save(){
   console.log(p)
   display =p+" - ";
+  result.textContent +=display;
+
+  count.textContent=0;
+  p =0;
   
-  result.innerText +=display;
 }
 
 save()
